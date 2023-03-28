@@ -20,16 +20,16 @@ int main ()
     switch (operator)
     {
         case '+':
-            printf("%.1lf + %.1lf = %.1lf", num1, num2, (num1 + num2));
+            printf("%.2lf + %.2lf = %.2lf", num1, num2, (num1 + num2));
             break;
         case '-':
-            printf("%.1lf -%.1lf = %.1lf", num1, num2, (num1 - num2));
+            printf("%.2lf - %.2lf = %.2lf", num1, num2, (num1 - num2));
             break;
         case '/':
-            printf("%.1lf / %.1lf = %.1lf", num1, num2, (num1 / num2));
+            printf("%.2lf / %.2lf = %.2lf", num1, num2, (num1 / num2));
             break;
         case '*':
-            printf("%.1lf * %.1lf = %.1lf", num1, num2, (num1 * num2));
+            printf("%.2lf * %.2lf = %.2lf", num1, num2, (num1 * num2));
             break;
         /*if user inputs an invalid operator*/
         default:
