@@ -1,0 +1,1 @@
+In this repository we are going to be creating a simple calculator that allows the following operators: +, -, \, *
