@@ -15,7 +15,7 @@ int main ()
     printf("Enter the two operands:");
     scanf("%lf %lf", &num1, &num2);
 
-    /*.%1lf so that we have only one decimal*/
+    /*.%2lf so that we have only one decimal*/
     
     switch (operator)
     {
